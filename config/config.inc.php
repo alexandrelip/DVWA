@@ -26,6 +26,9 @@ $_DVWA[ 'db_port']      = getenv('DB_PORT') ?: '51622';
 #   You'll need to generate your own keys at: https://www.google.com/recaptcha/admin
 $_DVWA[ 'recaptcha_public_key' ]  = getenv('RECAPTCHA_PUBLIC_KEY') ?: '';
 $_DVWA[ 'recaptcha_private_key' ] = getenv('RECAPTCHA_PRIVATE_KEY') ?: '';
+# CHAVE GOOGLE 
+$_DVWA['recaptcha_public_key']  = '6LfBAWArAAAAANkX0xxUBdPEJ2Yk6jXtwMXIJ3QA';
+$_DVWA['recaptcha_private_key'] = '6LfBAWArAAAAANmUNTp1NvZGu8ecxnA6sGillThE';
 
 # Default security level
 #   Default value for the security level with each session.
@@ -44,6 +47,8 @@ $_DVWA[ 'disable_authentication' ] = getenv('DISABLE_AUTHENTICATION') ?: false;
 
 define ('MYSQL', 'mysql');
 define ('SQLITE', 'sqlite');
+
+
 
 # SQLi DB Backend
 #   Use this to switch the backend database used in the SQLi and Blind SQLi labs.
