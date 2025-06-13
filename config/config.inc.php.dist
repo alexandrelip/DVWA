@@ -19,7 +19,7 @@ $_DVWA[ 'db_database' ] = 'railway';                   // Nome do banco
 $_DVWA[ 'db_user' ]     = 'root';                      // Usuário
 $_DVWA[ 'db_password' ] = 'TePqwlJMaLiVVOpPyzIzJCOvlprruwWC';  // Senha
 $_DVWA[ 'default_security_level' ] = 'low';            // Nível de segurança DVWA
-$_DVWA[ 'db_port']      = getenv('DB_PORT') ?: '3306';
+$_DVWA[ 'db_port']      = getenv('DB_PORT') ?: '51622';
 
 # ReCAPTCHA settings
 #   Used for the 'Insecure CAPTCHA' module
