@@ -59,6 +59,16 @@ def test_url():
         "https://twitter.com/digininja", # Twitter doesn't like GitHub checking it
         "https://www.cgisecurity.com/xss-faq.html", # Throwing a 403 for some reason, but can't see it going anywhere
         "https://www.cgisecurity.com/csrf-faq.html", # Throwing a 403 for some reason, but can't see it going anywhere
+        "https://wpscan.com/",
+    "http://www.w3.org/TR/html4/loose.dtd",
+    "https://www.vmware.com/",
+    "https://twitter.com/digininja",
+    "https://www.cgisecurity.com/xss-faq.html",
+    "https://www.cgisecurity.com/csrf-faq.html",
+    # Adicione esses abaixo:
+    "https://www.virtualbox.org/",
+    "https://blog.mozilla.org/security/2014/10/04/csp-for-the-web-we-have/",
+    "https://hacks.mozilla.org/2020/08/changes-to-samesite-cookie-behavior/",
     ]
     all_urls = []
     broken_urls = []
